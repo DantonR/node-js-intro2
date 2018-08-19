@@ -14,5 +14,5 @@ process.stdout.write('\n\n What is your name? \n\n');
 
 process.stdin.on('data', function(answer){
     process.stdout.write(`\n\n Hello ${answer} \n\n`);
-    process.exit;
+    process.exit();
 });
